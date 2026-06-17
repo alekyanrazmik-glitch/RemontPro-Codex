@@ -1,1 +1,42 @@
-document.addEventListener('DOMContentLoaded',()=>{const burger=document.querySelector('.burger');const nav=document.querySelector('.nav');if(burger&&nav){burger.addEventListener('click',()=>nav.classList.toggle('is-open'));nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('is-open')))}document.querySelectorAll('.faq-question').forEach(btn=>btn.addEventListener('click',()=>btn.closest('.faq-item').classList.toggle('is-open')));document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const msg=encodeURIComponent('Здравствуйте! Хочу рассчитать стоимость ремонта.');window.location.href=`https://wa.me/PLACEHOLDER_PHONE?text=${msg}`}));});
+document.addEventListener("DOMContentLoaded", () => {
+  const phone = "PLACEHOLDER_PHONE";
+  const whatsappText = encodeURIComponent(
+    "Здравствуйте! Хочу рассчитать стоимость ремонта.",
+  );
+  const whatsappUrl = `https://wa.me/${phone}?text=${whatsappText}`;
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav");
+
+  if (burger && nav) {
+    burger.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("is-open");
+      burger.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    nav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  document.querySelectorAll(".faq-question").forEach((button) => {
+    button.addEventListener("click", () => {
+      const item = button.closest(".faq-item");
+      const isOpen = item.classList.toggle("is-open");
+      button.setAttribute("aria-expanded", String(isOpen));
+    });
+  });
+
+  document.querySelectorAll("[data-whatsapp-link]").forEach((link) => {
+    link.setAttribute("href", whatsappUrl);
+  });
+
+  document.querySelectorAll("form[data-lead-form]").forEach((form) => {
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      window.location.href = whatsappUrl;
+    });
+  });
+});

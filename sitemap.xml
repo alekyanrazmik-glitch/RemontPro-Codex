@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.github.io/RemontPro-Codex/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/uslugi/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/goroda/gelendzhik/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/goroda/novorossiysk/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/portfolio/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/prices/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/blog/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/faq/</loc></url>
-  <url><loc>https://example.github.io/RemontPro-Codex/contacts/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/uslugi/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/goroda/gelendzhik/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/goroda/novorossiysk/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/portfolio/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/prices/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/blog/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/faq/</loc></url>
+  <url><loc>SITE_URL_PLACEHOLDER/contacts/</loc></url>
 </urlset>
