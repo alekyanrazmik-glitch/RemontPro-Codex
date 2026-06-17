@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Блог RemontPro</title>
+    <title>Видео с объектов RemontPro</title>
     <meta
       name="description"
-      content="Статьи о ремонте, контроле и материалах."
+      content="Видео RemontPro из JSON: обзоры ремонта, контроль качества и готовые объекты."
     />
     <link rel="canonical" href="SITE_URL_PLACEHOLDER/" />
-    <meta property="og:title" content="Блог RemontPro" />
+    <meta property="og:title" content="Видео с объектов RemontPro" />
     <meta
       property="og:description"
-      content="Статьи о ремонте, контроле и материалах."
+      content="Видео RemontPro из JSON: обзоры ремонта, контроль качества и готовые объекты."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="SITE_URL_PLACEHOLDER/" />
@@ -48,28 +48,15 @@
     <main>
       <section class="subhero">
         <div class="container">
-          <h1>Журнал ремонта</h1>
-          <p class="lead">Материалы о сметах, контроле и жизни объекта.</p>
+          <p class="breadcrumbs"><a href="../index.html">Главная</a> / Видео</p>
+          <h1>Видео с объектов</h1>
+          <p class="lead">
+            YouTube-видео автоматически читаются из assets/data/videos.json.
+          </p>
         </div>
       </section>
       <section class="content">
-        <div class="container article-grid">
-          <article class="article-card">
-            <span class="pill">Гайд</span>
-            <h2>Как читать смету</h2>
-            <p>Разбираем этапы, позиции и риски.</p>
-          </article>
-          <article class="article-card">
-            <span class="pill">Гайд</span>
-            <h2>Фотофиксация скрытых работ</h2>
-            <p>Что нужно сохранить до закрытия стен.</p>
-          </article>
-          <article class="article-card">
-            <span class="pill">Гайд</span>
-            <h2>Материалы для моря</h2>
-            <p>Как выбирать отделку для влажного климата.</p>
-          </article>
-        </div>
+        <div class="container"><div class="video-grid" data-videos></div></div>
       </section>
     </main>
     <footer class="footer">

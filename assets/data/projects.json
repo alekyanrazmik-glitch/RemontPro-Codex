@@ -1,0 +1,78 @@
+[
+  {
+    "id": "gel-apt-72",
+    "title": "Апартаменты с видом на бухту",
+    "city": "Геленджик",
+    "area": "72 м²",
+    "type": "Ремонт под ключ",
+    "duration": "84 дня",
+    "budget": "2,4 млн ₽",
+    "status": "завершён",
+    "cover": "assets/images/project-coast.svg",
+    "gallery": [
+      "assets/images/project-coast.svg",
+      "assets/images/project-loft.svg",
+      "assets/images/project-bath.svg"
+    ],
+    "description": "Светлый интерьер для жизни у моря с износостойкими материалами и скрытыми инженерными решениями.",
+    "task": "Сделать квартиру для круглогодичного проживания и сезонной сдачи без ощущения типового ремонта.",
+    "done": [
+      "полная замена электрики",
+      "новая сантехническая разводка",
+      "керамогранит и покраска",
+      "кухня-гостиная с нишами хранения"
+    ],
+    "youtubeUrl": "https://youtu.be/dQw4w9WgXcQ",
+    "before": "assets/images/before.svg",
+    "after": "assets/images/after.svg"
+  },
+  {
+    "id": "nvr-loft-96",
+    "title": "Графитовый лофт для семьи",
+    "city": "Новороссийск",
+    "area": "96 м²",
+    "type": "Капитальный ремонт",
+    "duration": "102 дня",
+    "budget": "3,1 млн ₽",
+    "status": "в работе",
+    "cover": "assets/images/project-loft.svg",
+    "gallery": [
+      "assets/images/project-loft.svg",
+      "assets/images/project-coast.svg"
+    ],
+    "description": "Тёмные акцентные зоны, инженерная подготовка под умный свет и долговечные покрытия.",
+    "task": "Пересобрать планировку и сделать ремонт с понятным графиком этапов.",
+    "done": [
+      "демонтаж перегородок",
+      "штукатурка и стяжка",
+      "электрика под сценарии света",
+      "черновая подготовка санузлов"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "before": "assets/images/before.svg",
+    "after": "assets/images/after.svg"
+  },
+  {
+    "id": "gel-bath-18",
+    "title": "Санузел в бетонной эстетике",
+    "city": "Геленджик",
+    "area": "18 м²",
+    "type": "Ванная комната",
+    "duration": "31 день",
+    "budget": "620 тыс ₽",
+    "status": "завершён",
+    "cover": "assets/images/project-bath.svg",
+    "gallery": ["assets/images/project-bath.svg", "assets/images/after.svg"],
+    "description": "Компактный санузел с крупным керамогранитом, нишами и аккуратной инженерией.",
+    "task": "Обновить старый санузел, спрятать коммуникации и сохранить максимум пространства.",
+    "done": [
+      "гидроизоляция",
+      "коллекторная разводка",
+      "укладка плитки",
+      "монтаж сантехники"
+    ],
+    "youtubeUrl": "",
+    "before": "assets/images/before.svg",
+    "after": "assets/images/after.svg"
+  }
+]
