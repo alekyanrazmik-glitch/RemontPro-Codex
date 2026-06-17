@@ -1,0 +1,26 @@
+[
+  {
+    "id": "video-1",
+    "title": "Приёмка чернового этапа",
+    "description": "Показываем, как проверяем плоскости, электрику и фотофиксацию скрытых работ.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "preview": "assets/images/video-preview-1.svg",
+    "category": "Контроль качества"
+  },
+  {
+    "id": "video-2",
+    "title": "Квартира у моря: финиш",
+    "description": "Обзор готового объекта, материалов и решений для влажного климата.",
+    "youtubeUrl": "https://youtu.be/dQw4w9WgXcQ",
+    "preview": "assets/images/video-preview-2.svg",
+    "category": "Готовый объект"
+  },
+  {
+    "id": "video-3",
+    "title": "Как выглядит фотоотчёт",
+    "description": "Формат отчёта для заказчика: задачи, сроки, фотографии, следующий этап.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "preview": "assets/images/video-preview-3.svg",
+    "category": "Процесс"
+  }
+]
