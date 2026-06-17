@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Видео RemontPro</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="admin-layout">
+      <aside class="admin-sidebar">
+        <a class="logo" href="../index.html">Remont<span>Pro</span></a>
+        <p class="small">Демо-админка на localStorage</p>
+        <a href="index.html">Dashboard</a><a href="portfolio.html">Проекты</a
+        ><a href="project-edit.html">Добавить проект</a
+        ><a href="videos.html">Видео</a>
+      </aside>
+      <main class="admin-main">
+        <h1>Видео</h1>
+        <form id="videoForm" class="form">
+          <input name="title" placeholder="Название" required /><input
+            name="category"
+            placeholder="Категория"
+          /><input name="youtubeUrl" placeholder="YouTube URL" required /><input
+            name="preview"
+            placeholder="Preview"
+          /><textarea name="description" placeholder="Описание"></textarea
+          ><button class="btn btn--accent">Добавить видео</button>
+        </form>
+        <div class="toolbar">
+          <button class="btn btn--dark" id="exportVideos">
+            Экспорт videos.json</button
+          ><label class="btn btn--light"
+            >Импорт videos.json<input
+              hidden
+              type="file"
+              id="importVideos"
+              accept=".json"
+          /></label>
+        </div>
+        <table class="admin-table">
+          <tbody id="videoRows"></tbody>
+        </table>
+      </main>
+    </div>
+    <script src="../assets/js/admin.js"></script>
+  </body>
+</html>
