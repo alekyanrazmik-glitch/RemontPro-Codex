@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Админ RemontPro</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="admin-layout">
+      <aside class="admin-sidebar">
+        <a class="logo" href="../index.html">Remont<span>Pro</span></a>
+        <p class="small">Демо-админка на localStorage</p>
+        <a href="index.html">Dashboard</a><a href="portfolio.html">Проекты</a
+        ><a href="project-edit.html">Добавить проект</a
+        ><a href="videos.html">Видео</a>
+      </aside>
+      <main class="admin-main">
+        <h1>Dashboard</h1>
+        <div id="dashboardStats" class="admin-grid"></div>
+        <div class="toolbar">
+          <button class="btn btn--dark" id="exportProjects">
+            Экспорт projects.json</button
+          ><button class="btn btn--dark" id="exportVideos">
+            Экспорт videos.json</button
+          ><label class="btn btn--light"
+            >Импорт projects.json<input
+              hidden
+              type="file"
+              id="importProjects"
+              accept=".json" /></label
+          ><label class="btn btn--light"
+            >Импорт videos.json<input
+              hidden
+              type="file"
+              id="importVideos"
+              accept=".json"
+          /></label>
+        </div>
+      </main>
+    </div>
+    <script src="../assets/js/admin.js"></script>
+  </body>
+</html>
